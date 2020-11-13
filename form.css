@@ -1,0 +1,154 @@
+*{
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+             font-family: poppins;
+            
+         }
+         body{
+             background-image: url("https://images.unsplash.com/photo-1492227982298-644b223e666d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+              background-size: 1300px 800px;
+              background-repeat: no-repeat;
+            }
+         .container{
+             height:500px;
+             width:700px;
+             position:absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             display: grid;
+             grid-template-columns: repeat(2,1fr);
+             box-shadow: 5px 5px 50px 11px rgba(0,0,0,0.7);
+         }
+
+         .login-heading{
+            background-image:url("https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+            background-image: url("https://images.unsplash.com/photo-1542705959-878ca346eb20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
+         .login-form{
+            background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(192,181,218,1) 51%, rgba(148,187,233,1) 100%);
+         }
+
+         .login-heading>div{
+             width: 300px;
+             height: 100px;
+             font-family: poppins;
+             position:relative;
+             top: 30%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             text-transform:uppercase;
+             font-weight: bold;
+             font-size: 60px;
+             text-align: center;
+             letter-spacing: 10px;
+             color:white;
+         }
+
+         .login-form>form{
+             height: 80%;
+             width:80%;
+             margin: 10% 10%;
+             background-color: transparent;
+             display: grid;
+             grid-template-rows: repeat(4,1fr);
+         }
+
+         .login-form>form>div:nth-child(1){
+             padding: 33px 10px;
+             
+         }
+         .login-form>form>div:nth-child(2){
+             padding: 33px 10px;
+             
+         }
+
+         .login-form>form>div>input{
+              width: 100%;
+              height: 100%;
+              text-align: center;
+              font-size: 15px;
+              font-weight: 500;
+              outline: none;
+              border: 1px solid black;
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              background-color: transparent;
+         }
+
+         .login-form>form>div>input::placeholder{
+             
+             letter-spacing: 12px;
+             font-size: 18px;
+             text-transform: uppercase;
+             
+         }
+
+         .login-with{
+             width: 100%;
+             height: 100%;
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             padding: 10px 10px;
+         }
+
+         .login-with>div{
+             height: 80%;
+             width: 80%;
+             margin: 2px 2px;
+         }
+
+         .submit{
+               width: 100%;
+               height: 100%;
+         }
+         .submit>button{
+             position: relative;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             height: 40px;
+             width: 160px;
+             font-size: 15px;
+             background:linear-gradient(45deg,rgb(78, 78, 231),purple);
+             letter-spacing: 2px;
+             color: white;
+             font-weight: bold;
+             outline: none;
+             border: none;
+             border-radius: 20px;
+             text-transform: uppercase;
+           
+         }
+
+         .login-with>div>i{
+               width: 100%;
+               height: 100%;
+               font-size: 50px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               background-color: gray;
+               transition: 0.3s ease-out;
+               border-radius: 20px;
+         }
+         
+         .login-with>div:nth-child(1){
+             color:yellow;
+         }
+         .login-with>div:nth-child(2){
+             color:rgb(7, 7, 245);
+         }
+         .login-with>div:nth-child(3){
+             color:rgb(119, 209, 245);
+         }
+         .login-with>div>i:hover{
+             background-color:rgb(179, 176, 176);
+         }
+
+         
